@@ -3,6 +3,28 @@
     /*background-color: black;*/
 }
 
-/*.container {*/
-/*    background-color: black;*/
-/*}*/
+.container {
+    /*position: relative;*/
+    /*top: 300px;*/
+}
+
+.img {
+    border-radius:10px;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.column-one{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
