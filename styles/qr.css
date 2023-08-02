@@ -7,12 +7,8 @@
 }
 
 .img {
-    /*min-width: 100%;*/
     border-radius: 10px;
     margin-top: 10px;
-    /*justify-items: center;*/
-    /*margin-left: -10px;*/
-    /*margin-right: -10px;*/
 }
 
 .row {
@@ -39,4 +35,24 @@
     text-align: center;
     font-size: 12px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 375px) {
+.row {
+        width: 80%;
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /*.column-one{*/
+    /*    font-size: 20px;*/
+    /*}*/
+    /*.column-two{*/
+    /*    font-size: 10px;*/
+    /*}*/
+    /*.img {*/
+    /*    width: 100%;*/
+    /*    height: auto;*/
+    /*}*/
 }
